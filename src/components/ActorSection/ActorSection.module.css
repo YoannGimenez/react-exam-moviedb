@@ -1,0 +1,39 @@
+.actorsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.actorCard {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 0.5rem;
+    text-align: center;
+    width: 150px;
+    color: white;
+}
+
+.actorImage {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.actorName {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.actorRole {
+    font-size: 0.9rem;
+    color: #ccc;
+    font-style: italic;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}

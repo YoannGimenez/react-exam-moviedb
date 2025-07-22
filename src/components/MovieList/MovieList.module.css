@@ -1,0 +1,62 @@
+.movieListContainer {
+    padding: 2rem;
+    background-color: #0f0f0f;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.movieGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.movieGrid > * {
+    flex: 1 1 200px; /* grow | shrink | basis */
+    max-width: 200px;
+}
+
+.filterButton {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+    background-color: #b00610;
+}
+
+.activeFilter {
+    background-color: #e50914;
+}
+
+.searchInput {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 1rem auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: block;
+}

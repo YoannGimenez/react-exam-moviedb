@@ -1,0 +1,132 @@
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #0f0f0f;
+    color: white;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    min-height: 70vh;
+}
+
+@media (min-width: 768px) {
+    .detailContainer {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.posterWrapper {
+    flex-shrink: 0;
+    max-width: 300px;
+}
+
+.poster {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tagline {
+    font-style: italic;
+    color: #f1c40f;
+}
+
+.overview {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.meta {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.wishlistButton {
+    margin: 1rem 0;
+    padding: 0.6rem 1.2rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+}
+
+.wishlistButton:hover {
+    background-color: #b00610;
+}
+
+.actorsSection {
+    margin-top: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.similarSection {
+    padding: 2rem;
+    color: white;
+}
+
+.similarTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.similarGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.similarCard {
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.similarPoster {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.similarTitleText {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    width: 100%;
+    height: 87%;
+}
